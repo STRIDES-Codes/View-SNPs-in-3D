@@ -1,6 +1,6 @@
-# Find Symmetry of 3D Structures, or View SNPs in 3D
+# Find Symmetries of 3D Structures, or View SNPs in 3D
 
-## Find Symmetry of 3D Structures
+## Find Symmetries of 3D Structures
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
 
 <b>Preliminary data</b>
