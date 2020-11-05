@@ -16,9 +16,9 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 4. Display the symmetry in iCn3D.
 
 <b>References About Symmetry Types</b>
-![Symmetry Types](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/symmetriescategory-horizontal.jpg?raw=true)
 1. CE-Symm: https://www.sciencedirect.com/science/article/pii/S0022283614001557
 2. CE-Symm: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006842
+![Symmetry Types](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/symmetriescategory-horizontal.jpg?raw=true)
 
 ## View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
