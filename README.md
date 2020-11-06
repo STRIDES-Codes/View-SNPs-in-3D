@@ -11,6 +11,7 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 
 <b>Work items</b>
 1. Based on the ouput above, determine how many symmetries in the structure.
+![Z1 scores](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/z1score.png?raw=true)
 2. What are the symmetries, such as C6, D2, etc.
 3. Calculate the axis for each symmetry.
 4. Display the symmetry in iCn3D.
