@@ -4,7 +4,7 @@
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
 
 <b>Preliminary data</b>
-1. Read the paper: https://academic.oup.com/nar/article/42/W1/W296/2435489. The web server is at https://galaxyproject.org/use/symd/.
+1. Read the papers: https://academic.oup.com/nar/article/42/W1/W296/2435489 and https://pubmed.ncbi.nlm.nih.gov/27747230/. The web server is at https://galaxyproject.org/use/symd/.
 2. The output of SYMD for the PDB 1KQ2 is at [symd-1KQ2.txt](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/symd-1KQ2.txt). There are four parts. 
 3. The Z1 score threshold (in parts 2 and 3 of the output) should be 10 (or 8). If all Z1 scores are less than 10, the structure has no symmetry.
 4. The symmetry from RCSB is not complete. It didn't show the local symmetry: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?bGH1BfLsiGFhhTDn8.
