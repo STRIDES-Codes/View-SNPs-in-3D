@@ -5,10 +5,6 @@ iCn3D shows SNPs in the sequences. It will be interesting to show the mutated re
 
 Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
 
-## Testing iCn3D with symmD
-About 15 structures were tested. 7 look good. Errors with other structures
-![Tests](project1/icn3d.symm.tests.pdf)
-
 
 ## Project 2: Find Symmetries of 3D Structures
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
@@ -28,6 +24,11 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 
 <b>Preliminary results</b>
 1. You can test at https://www.ncbi.nlm.nih.gov/Structure/icn3d2/full.html?mmdbid=1kq2 by replacing 1kq2 with any pdb id. 
+
+### Testing iCn3D with symmD
+About 15 structures were tested. 7 look good. Errors with other structures.
+![Details](project1/icn3d.symm.tests.pdf)
+
 2. Click the menu "Analysis > Symmetry (SymD)". A popup window is shown. Click "Apply" to show the symmetry.
 3. Click "Ctrl + Shift + i" to see the "console" tab. The output from SymD is shown in console.
 4. You can select a subset of the structure to do this dynamic symmetry calculation as well.
