@@ -1,6 +1,11 @@
-# Find Symmetries of 3D Structures, or View SNPs in 3D
+# View SNPs in 3D, or Find Symmetries of 3D Structures
 
-## Project 1: Find Symmetries of 3D Structures
+## Project 2: View SNPs in 3D
+iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
+
+Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
+
+## Project 2: Find Symmetries of 3D Structures
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
 
 <b>Preliminary data</b>
@@ -28,10 +33,5 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 2. CE-Symm: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006842
 
 ![Symmetry Types](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/symmetriescategory-horizontal.jpg?raw=true)
-
-## Project 2: View SNPs in 3D
-iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
-
-Here is one example on displaying SNPs in sequences of PDB ID 7C2L: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?X3whJjau5t91j6i98.
 
 
