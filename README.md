@@ -1,6 +1,6 @@
 # Find Symmetries of 3D Structures, or View SNPs in 3D
 
-## Find Symmetries of 3D Structures
+## Project 1: Find Symmetries of 3D Structures
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
 
 <b>Preliminary data</b>
@@ -29,7 +29,7 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 
 ![Symmetry Types](https://github.com/STRIDES-Codes/Find-Symmetries-of-3D-Structures/blob/main/symmetriescategory-horizontal.jpg?raw=true)
 
-## View SNPs in 3D
+## Project 2: View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
 
 
