@@ -32,6 +32,6 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 ## Project 2: View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
 
-Here is one example of displaying SNPs in sequences of PDB ID 7C2L: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?X3whJjau5t91j6i98.
+Here is one example on displaying SNPs in sequences of PDB ID 7C2L: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?X3whJjau5t91j6i98.
 
 
