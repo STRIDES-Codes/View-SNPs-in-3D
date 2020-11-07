@@ -1,6 +1,6 @@
 # View SNPs in 3D, or Find Symmetries of 3D Structures
 
-## Project 2: View SNPs in 3D
+## Project 1: View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
 
 Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
