@@ -16,6 +16,13 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 3. Calculate the axis for each symmetry.
 4. Display the symmetry in iCn3D.
 
+<b>Preliminary results</b>
+1. You can test at https://www.ncbi.nlm.nih.gov/Structure/icn3d2/full.html?mmdbid=1kq2 with any pdbid. 
+2. Click the menu "Analysis > Symmetry (SymD)". A popup window is shown. Click "Apply" to show the symmetry.
+3. Click "Ctrl + Shift + i" to see the "console" tab. The output from SymD is shown in console.
+4. You can select a subset of the structure to do this dynamic symmetry calculation as well.
+5. So far it only works for cyclic symmetry. We need to test with more examples and improve it.
+
 <b>References About Symmetry Types</b>
 1. CE-Symm: https://www.sciencedirect.com/science/article/pii/S0022283614001557
 2. CE-Symm: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006842
