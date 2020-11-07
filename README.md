@@ -3,6 +3,8 @@
 ## Project 1: View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
 
+![Methodology](project1/flowchart.png)
+
 Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
 
 
@@ -27,7 +29,7 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 
 ### Testing iCn3D with symmD
 About 15 structures were tested. 7 look good. Errors with other structures.
-![Details](project1/icn3d.symm.tests.pdf)
+![Details](project2/icn3d.symm.tests.pdf)
 
 2. Click the menu "Analysis > Symmetry (SymD)". A popup window is shown. Click "Apply" to show the symmetry.
 3. Click "Ctrl + Shift + i" to see the "console" tab. The output from SymD is shown in console.
