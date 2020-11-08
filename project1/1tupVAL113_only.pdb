@@ -1,0 +1,10 @@
+HEADER     Created using PDB.Structure script on : 2020-11-07 21:15:49.139168
+TITLE     From PDB ID: UNK
+ATOM   2533  N   VAL B 113      73.311  18.855  98.120  1.00 18.52           N
+ATOM   2534  CA  VAL B 113      73.096  19.692  97.010  1.00 22.94           C
+ATOM   2535  CB  VAL B 113      71.657  20.039  96.839  1.00 21.85           C
+ATOM   2536  CG1 VAL B 113      71.318  21.066  97.929  1.00  0.00           C
+ATOM   2537  CG2 VAL B 113      71.386  20.437  95.375  1.00  0.00           C
+ATOM   2538  C   VAL B 113      73.855  20.921  97.352  1.00 30.87           C
+ATOM   2539  O   VAL B 113      74.308  21.107  98.482  1.00 36.54           O
+END

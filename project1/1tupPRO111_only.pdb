@@ -1,0 +1,10 @@
+HEADER     Created using PDB.Structure script on : 2020-11-07 21:10:26.101723
+TITLE     From PDB ID: UNK
+ATOM    996  N   PRO A 111      82.375  36.589  56.270  1.00 19.36           N
+ATOM    997  CA  PRO A 111      81.236  36.337  55.440  1.00 20.86           C
+ATOM    998  CD  PRO A 111      82.005  36.798  57.657  1.00  0.00           C
+ATOM    999  CB  PRO A 111      80.049  36.159  56.379  1.00 22.99           C
+ATOM   1000  CG  PRO A 111      80.666  36.054  57.778  1.00 20.40           C
+ATOM   1001  C   PRO A 111      80.960  37.589  54.668  1.00 26.13           C
+ATOM   1002  O   PRO A 111      81.438  38.658  55.045  1.00 28.47           O
+END
