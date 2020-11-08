@@ -24,9 +24,13 @@ Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <exclude
 
 #### Output pdb
 ```
-python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb (![Structure](project1/1tupVAL113_only.pdb))
-python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb (![Structure](project1/1tupPRO111_only.pdb))
+python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb 
 ```
+![Structure](project1/1tupPRO111_only.pdb)
+```
+python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb 
+```
+[Structure](project1/1tupVAL113_only.pdb)
 
 
 ## References
