@@ -16,13 +16,10 @@ Modeller's mutate\_model.py script was used to do the following mutations in 1TU
 - L111-\>PRO in Chain A ([Structure](project1/1tupPRO111.pdb))
 - F113-\>VAL in Chain B ([Structure](project1/1tupVAL113.pdb))
 
-- Output mutated residue
+#### Output mutated residue pdb
 - using script at github repo https://github.com/sridharacharya/bioStructureTools/Structure.py
-```
-Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>
-```
+- Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>
 
-#### Output pdb
 ```
 python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb 
 ```
