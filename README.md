@@ -13,8 +13,8 @@ Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://stru
 
 #### Mutating residue
 Modeller's mutate\_model.py script was used to do the following mutations in 1TUP (![FILE](project1/pdb1tup.ent))
-- L111-\>PRO in Chain A (![Structure](project1/1tupPRO111.pdb))
-- F113-\>VAL in Chain B (![Structure](project1/1tupVAL113.pdb))
+- L111-\>PRO in Chain A ([Structure](project1/1tupPRO111.pdb))
+- F113-\>VAL in Chain B ([Structure](project1/1tupVAL113.pdb))
 
 - Output mutated residue
 - using script at github repo https://github.com/sridharacharya/bioStructureTools/Structure.py
@@ -26,7 +26,7 @@ Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <exclude
 ```
 python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb 
 ```
-![Structure](project1/1tupPRO111_only.pdb)
+[Structure](project1/1tupPRO111_only.pdb)
 ```
 python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb 
 ```
@@ -66,5 +66,5 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 
 ### Testing Results iCn3D with symmD
 About 15 structures were tested. 7 look good. Errors with other structures.
-![Details](project2/icn3d.symm.tests.pdf)
+[Details] (project2/icn3d.symm.tests.pdf)
 
