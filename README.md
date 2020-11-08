@@ -17,11 +17,16 @@ There are several tools available for visualizing structural homology modelling 
 ### Testing 
 
 #### Mutating residue
-Modeller's mutate\_model.py script was used to do the following mutations in 1TUP ([pdb1tup.ent](project1/pdb1tup.ent))
+
+#### Using Modeller
+- Modeller's mutate\_model.py script was used to do the following mutations in 1TUP ([pdb1tup.ent](project1/pdb1tup.ent))
 - L111-\>PRO in Chain A ([1tupPRO111.pdb](project1/1tupPRO111.pdb))
 - F113-\>VAL in Chain B ([1tupVAL113.pdb](project1/1tupVAL113.pdb))
 
-#### Output mutated residue pdb
+##### Dependencies
+- Modeller package
+
+##### Output mutated residue pdb
 - using script at github repo https://github.com/sridharacharya/bioStructureTools
 ```
 - Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>
@@ -30,6 +35,19 @@ python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb
 ```
 [1tupPRO111_only.pdb](project1/1tupPRO111_only.pdb)
 [1tupVAL113_only.pdb](project1/1tupVAL113_only.pdb)
+
+#### Using UCSF-Chimera
+- UCSF-Chimera has python interface which can be used to mutate residue. 
+- A python script ([ChimeraMutateResidue.py](project1/ChimeraMutateResidue.py)) is made to mutate residue and write the mutated residue to a pdb file
+
+##### Dependencies
+- UCSF-Chimera package
+- python module pychimera
+
+##### Output mutated residue pdb
+```
+pychimera ChimeraMutateResidue.py -f <PDB file> -r <RESIDUE number> -c <CHAIN name> -m <MUTANT (3-letter) residue> -o <OUTPUT file>
+```
 
 
 ## References
