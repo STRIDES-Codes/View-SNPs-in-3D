@@ -22,7 +22,7 @@ Modeller's mutate\_model.py script was used to do the following mutations in 1TU
 - F113-\>VAL in Chain B ([1tupVAL113.pdb](project1/1tupVAL113.pdb))
 
 #### Output mutated residue pdb
-- using script at github repo https://github.com/sridharacharya/bioStructureTools/Structure.py
+- using script at github repo https://github.com/sridharacharya/bioStructureTools
 ```
 - Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>
 python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb 
@@ -73,3 +73,11 @@ About 15 structures were tested. 7 look good. Errors with other structures.
 2. CE-Symm: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006842
 
 ---
+
+## Team Members:
+Jiyao Wang (github: jiywang3)  
+Emily Tai  
+Top Madeji  
+Sridhar Acharya Malkaram (github: sridharacharya)  
+David Enoma (github: davidenoma)  
+Rachel Dunn (github: racheldunn)  
