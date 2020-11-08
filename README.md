@@ -49,6 +49,9 @@ python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb
 pychimera ChimeraMutateResidue.py -f <PDB file> -r <RESIDUE number> -c <CHAIN name> -m <MUTANT (3-letter) residue> -o <OUTPUT file>
 ```
 
+## TODO
+- integration of scripts into iCn3D web-framework
+
 
 ## References
 1. Wang, Jiyao, et al. "iCn3D, a web-based 3D viewer for sharing 1D/2D/3D representations of biomolecular structures." Bioinformatics 36.1 (2020): 131-135.
