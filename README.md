@@ -33,6 +33,8 @@ python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb
 
 
 ## References
+1. Wang, Jiyao, et al. "iCn3D, a web-based 3D viewer for sharing 1D/2D/3D representations of biomolecular structures." Bioinformatics 36.1 (2020): 131-135.
+2. Xiang, Zhexin, and Barry Honig. "Extending the accuracy limits of prediction for side-chain conformations." Journal of molecular biology 311.2 (2001): 421-430.
 
 ---
 
