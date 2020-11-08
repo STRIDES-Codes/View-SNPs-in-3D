@@ -58,7 +58,7 @@ Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D
 4. You can select a subset of the structure to do this dynamic symmetry calculation as well.
 5. So far it only works for cyclic symmetry. We need to test with more examples and improve it.
 
-### Testing Results iCn3D with symmD
+### Testing symmD output in iCn3D
 About 15 structures were tested. 7 look good. Errors with other structures.
-[Details](project2/icn3d.symm.tests.pdf)
+[Details here](project2/icn3d.symm.tests.pdf)
 
