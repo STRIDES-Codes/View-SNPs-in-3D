@@ -1,10 +1,14 @@
 # View SNPs in 3D, or Find Symmetries of 3D Structures
+
+[iCn3D](https://github.com/ncbi/icn3d) provides a [web-based tool](https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?mmdbid=1TUP&showanno=1&show2d=1&showsets=1) for protein structure visualizing. Here we seek to expand the functionality of this tool to:
+1. integrate 3D visualization of SNPs
+2. Build on the functioning SymD integration to include local symmetry analysis capabilities
+
 ---
 
 # Project 1: View SNPs in 3D
-iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
+There are several tools available for visualizing structural homology modelling ([SCWRL](http://dunbrack.fccc.edu/scwrl4/SCWRL4.php), [AMBER](https://ambermd.org/)), most are not available in a web based format, or are not licensed outside for use outside of academia. We explored integration of both scap (http://honig.c2b2.columbia.edu/jackal), and chimera based scripts () to show mutated residues in 3D.
 
-Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
 
 ![Methodology](project1/flowchart.png)
 
