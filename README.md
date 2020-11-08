@@ -3,10 +3,16 @@
 ## Project 1: View SNPs in 3D
 iCn3D shows SNPs in the sequences. It will be interesting to show the mutated residues in 3D directly. We could use the leap program in AMBER, SCWRL, or other programs.
 
-![Methodology](project1/flowchart.png)
-
 Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://structure.ncbi.nlm.nih.gov/icn3d/share.html?qCkdyrBHfkdKhLcx5. 
 
+![Methodology](project1/flowchart.png)
+
+## Preliminary Results
+
+### Testing with Modeller program
+Modeller's mutate\_model.py script was used to do the following mutations in 1TUP (![FILE](project1/pdb1tup.ent))
+- L111-\>PRO in Chain A (![Structure](project1/1tupPRO111.pdb))
+- F113-\>VAL in Chain B (![Structure](project1/1tupVAL113.pdb))
 
 ## Project 2: Find Symmetries of 3D Structures
 Find the symmetry of a structure (assembly,chain,domain) and display it in iCn3D. We could convert the source code of SYMM to a web service.
