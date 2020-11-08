@@ -7,7 +7,7 @@
 ---
 
 # Project 1: View SNPs in 3D
-There are several tools available for visualizing structural homology modelling ([SCWRL](http://dunbrack.fccc.edu/scwrl4/SCWRL4.php), [AMBER](https://ambermd.org/)), most are not available in a web based format, or are not licensed outside for use outside of academia. We explored integration of both scap (http://honig.c2b2.columbia.edu/jackal), and chimera based scripts () to show mutated residues in 3D.
+There are several tools available for visualizing structural homology modelling ([SCWRL](http://dunbrack.fccc.edu/scwrl4/SCWRL4.php), [AMBER](https://ambermd.org/)), most are not available in a web based format, or are not licensed outside for use outside of academia. We explored integration of both scap (http://honig.c2b2.columbia.edu/jackal), chimera based scripts, and modeller to show mutated residues in 3D.
 
 
 ![Methodology](project1/flowchart.png)
