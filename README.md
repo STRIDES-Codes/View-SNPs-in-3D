@@ -12,22 +12,19 @@ Here is one example on displaying SNPs in sequences of PDB ID 1TUP: https://stru
 ### Testing 
 
 #### Mutating residue
-Modeller's mutate\_model.py script was used to do the following mutations in 1TUP ([FILE](project1/pdb1tup.ent))
-- L111-\>PRO in Chain A ([Structure](project1/1tupPRO111.pdb))
-- F113-\>VAL in Chain B ([Structure](project1/1tupVAL113.pdb))
+Modeller's mutate\_model.py script was used to do the following mutations in 1TUP ([pdb1tup.ent](project1/pdb1tup.ent))
+- L111-\>PRO in Chain A ([1tupPRO111.pdb](project1/1tupPRO111.pdb))
+- F113-\>VAL in Chain B ([1tupVAL113.pdb](project1/1tupVAL113.pdb))
 
 #### Output mutated residue pdb
 - using script at github repo https://github.com/sridharacharya/bioStructureTools/Structure.py
+```
 - Usage: Structure.py -i <pdb-id> or -f <pdb-file> -r <included resno> -x <excluded resno> -o <output-file-name>
-
-```
 python Structure.py -f 1tupPRO111.pdb -r A111 -o 1tupPRO111_only.pdb 
-```
-[Structure](project1/1tupPRO111_only.pdb)
-```
 python Structure.py -f 1tupVAL113.pdb -r B113 -o 1tupVAL113_only.pdb 
 ```
-[Structure](project1/1tupVAL113_only.pdb)
+[1tupPRO111_only.pdb](project1/1tupPRO111_only.pdb)
+[1tupVAL113_only.pdb](project1/1tupVAL113_only.pdb)
 
 
 ## References
